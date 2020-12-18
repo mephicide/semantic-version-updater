@@ -1,0 +1,14 @@
+{
+    "python.pythonPath": "/usr/local/anaconda3/envs/versionupdater/bin/python",
+    "python.testing.unittestArgs": [
+        "-v",
+        "-s",
+        "./test",
+        "-p",
+        "test_*.py"
+    ],
+    "python.testing.pytestEnabled": false,
+    "python.testing.nosetestsEnabled": false,
+    "python.testing.unittestEnabled": true,
+    "prettier.enable": false
+}

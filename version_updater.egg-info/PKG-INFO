@@ -1,0 +1,27 @@
+Metadata-Version: 1.0
+Name: version-updater
+Version: 0.0.1
+Summary: Updates semantic versions, either of the artifact itself, or its dependencies
+Home-page: UNKNOWN
+Author: Jeremy Vickery
+Author-email: jeremyvickery@gmail.com
+License: MIT
+Description: # (Semantic) Version Updater!
+        
+        TBD
+        
+        # Installation
+        
+        TBD
+        
+        # Examples
+        
+        ## Set some dependency versions to new ones from a prior CI pipeline, and bump the major version (package.json)
+        
+        `update-version --set-dependencies react=1.2.3,react-dom=2.3.4 test/test-data/package1.json --bump major`
+        
+        ## Update the patch version in the .gitlab-ci.yml
+        
+        `update-version --bump patch test/test-data/.gitlab-ci.yml`
+        
+Platform: any
