@@ -13,7 +13,7 @@ except IOError:
 
 setup(
     name='version_updater',
-    version='0.0.1',
+    version='0.0.2',
     description="Updates semantic versions, either of the artifact itself, or its dependencies",
     author="Jeremy Vickery",
     author_email="jeremyvickery@gmail.com",
