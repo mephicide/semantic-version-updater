@@ -3,7 +3,7 @@ from setuptools import setup, find_packages
 entrypoints = {}
 
 console_scripts = entrypoints['console_scripts'] = [
-    'update-version = main:main',
+    'update-version = version_updater.main:main',
 ]
 
 try:

@@ -3,6 +3,7 @@ setup.py
 test/__init__.py
 test/test_parser.py
 version_updater/__init__.py
+version_updater/main.py
 version_updater/package_parser.py
 version_updater/parser.py
 version_updater/requirements_parser.py
